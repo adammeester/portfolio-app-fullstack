@@ -3,11 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 
-namespace Portfolio.Functions.Project
+namespace Portfolio.Functions.Projects
 {
     public class GetProjects(ILogger<GetProjects> logger)
     {
-
         [Function("GetProjects")]
         public IActionResult Run([HttpTrigger(AuthorizationLevel.Function, "get", Route = "Projects/Get")] HttpRequest req)
         {

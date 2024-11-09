@@ -1,0 +1,1 @@
+export { Flipcard } from './Flipcard';

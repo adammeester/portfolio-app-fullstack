@@ -1,0 +1,1 @@
+export { SpaceBoy } from './SpaceBoy';

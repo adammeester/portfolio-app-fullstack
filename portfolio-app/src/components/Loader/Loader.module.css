@@ -1,0 +1,23 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c1c1c;
+}
+
+.content {
+  width: 5rem;
+  height: 5rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #999ea2;
+  border-top-color: #1c1c1c;
+  border-radius: 100%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

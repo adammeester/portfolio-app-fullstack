@@ -1,0 +1,21 @@
+.socialsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: center;
+}
+.socialsLink {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.7rem;
+
+  @media screen and (min-width: 1024px) {
+    font-size: 1rem;
+  }
+}
+.socialsIcon {
+  height: 2rem;
+  width: 2rem;
+}

@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+  justify-content: center;
+
+  @media screen and (min-width: 1024px) {
+    padding: 2rem;
+    flex-direction: row;
+  }
+}
+
+.skills {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.skillsCard {
+  /* background: grey;
+  padding: 0.5rem; */
+  cursor: pointer;
+  :hover {
+    animation: grow 2s ease-in-out infinite alternate;
+  }
+  --delay-multiplier: 500ms;
+
+  &:nth-of-type(n) {
+    transition-delay: calc(var(--delay-multiplier) * n);
+  }
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.skillImage {
+  height: 5rem;
+}

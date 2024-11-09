@@ -1,0 +1,22 @@
+.canvasContainer {
+  height: 30rem;
+  width: 100vw;
+  transform: translateX(-2rem);
+
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 10rem;
+    height: 60rem;
+    transform: translateX(0);
+  }
+  .rotating {
+    cursor: grab;
+  }
+  .static {
+    cursor: grabbing;
+  }
+}
+
+.canvas {
+  margin: 0;
+  padding: 0;
+}

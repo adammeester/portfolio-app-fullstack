@@ -1,0 +1,84 @@
+.navBar {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 1.25rem 2rem 1.25rem 2rem;
+  margin: 0 auto;
+  align-items: center;
+  background: transparent;
+  z-index: 101;
+}
+
+.scrolled {
+  background: #1c1c1c;
+    z-index: 101;
+}
+
+.logo {
+  height: 3.5rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+  width: 100%;
+}
+
+.navItems {
+  gap: 2rem;
+  flex-direction: row;
+  list-style: none;
+  display: none;
+  @media screen and (min-width: 1024px) {
+    display: flex;
+  }
+}
+.active {
+  color: grey !important;
+}
+.mobileMenu {
+  display: flex;
+  align-items: center;
+  background: 'white';
+  @media screen and (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.menuIcon {
+  width: 1.75rem;
+  height: 1.75rem;
+  object-fit: contain;
+}
+
+.mobileMenuContent {
+  opacity: 1;
+  width: 100%;
+  transition: opacity 0.5s ease;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #000;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.mobileNavLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobileNavLink {
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem; /* Adjust font size as needed */
+}
+.hidden {
+  opacity: 0;
+}

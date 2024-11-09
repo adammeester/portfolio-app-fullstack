@@ -1,0 +1,15 @@
+.planetCanvas {
+  cursor: pointer;
+  height: auto;
+  display: flex;
+  width: max-content;
+}
+
+.canvasContainer {
+  margin: auto;
+  width: 67%;
+
+  @media screen and (min-width: 1024px) {
+    width: 30%;
+  }
+}

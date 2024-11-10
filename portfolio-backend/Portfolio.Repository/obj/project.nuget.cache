@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "HfebbS2uHi0=",
+  "dgSpecHash": "PBGOMjwUUT8=",
   "success": true,
   "projectFilePath": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Repository\\Portfolio.Repository.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\adamm\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

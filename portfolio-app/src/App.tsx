@@ -7,6 +7,8 @@ import { SpaceBoy } from './components/SpaceBoyCanvas';
 import { PlanetsContextProvider } from './components/PlanetsContextProvider';
 import { PlanetTooltip } from './components/PlanetTooltip';
 import { Stars } from './components/Stars';
+import { QueryClient, QueryClientProvider } from 'react-query';
+import { ProjectsContextProvider } from './context';
 
 export const App = () => {
   return (
@@ -20,7 +22,11 @@ export const App = () => {
 
           <div className='page'>
             <NavBar />
-            <FeaturesContainer />
+            <QueryClientProvider client={new QueryClient()}>
+              <ProjectsContextProvider>
+                <FeaturesContainer />
+              </ProjectsContextProvider>
+            </QueryClientProvider>
           </div>
         </div>
       </PlanetsContextProvider>

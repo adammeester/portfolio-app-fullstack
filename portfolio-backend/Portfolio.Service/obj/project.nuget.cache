@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yjKzxpJH+Pk=",
+  "success": true,
+  "projectFilePath": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Service\\Portfolio.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\adamm\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\adamm\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\adamm\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

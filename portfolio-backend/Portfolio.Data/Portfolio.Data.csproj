@@ -7,13 +7,25 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Projects\" />
+    <None Remove="Experience\experience.json" />
+    <None Remove="Projects\projects.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="Projects\projects.json">
+    <Content Include="Experience\experience.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Content>
+    <Content Include="Projects\projects.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Portfolio.Models\Portfolio.Models.csproj" />
   </ItemGroup>
 
 </Project>

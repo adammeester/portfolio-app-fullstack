@@ -1,0 +1,45 @@
+[
+  {
+    "company": "JB Hi-Fi",
+    "website": "https://jbhifi.com.au",
+    "logo": "jbhifi",
+    "logoBackground": "yellow",
+    "role": "Full stack developer",
+    "date": "June 2021 - Present",
+    "duties": [
+      "Develop and maintain full-stack web applications using a technology stack that includes React.js, Typescript, Next.js and Node.js.",
+      "Develop portable, unopinionated components for a shared component library, ensuring they are highly reusable across all JB Hi-Fi applications. These components are thoroughly documented and showcased in Storybook.",
+      "Leverage React Context API and React hooks to create decoupled and easily testable code.",
+      "Utilize modern CSS and CSS-in-JS frameworks, including MUI5, Emotion, Styled Components, and Vanilla Extract, to develop responsive user interfaces based on Figma designs",
+      "Engineer and maintain serverless architecture in both AWS and Azure, with both .NET Core and Node.js technologies.",
+      "Skillful management and creation of build and release pipelines in Azure for streamlined application deployment and continuous integration."
+    ]
+  },
+  {
+    "company": "Avanade",
+    "website": "https://www.avanade.com/en-au",
+    "logo": "avanade",
+    "logoBackground": "white",
+    "role": "Software Developer",
+    "date": "January 2021 - June 2021",
+    "duties": [
+      "Developed .NET Core, cloud-based (Azure) integration platform utilising Azure Event Hub and an event-driven architecture for the supply chain of a major Australian brand.",
+      "Contributed to design process and design decisions and communicated with stakeholders to define project requirements.",
+      "Created supporting project documentation."
+    ]
+  },
+  {
+    "company": "SS&C Technologies",
+    "website": "https://www.ssctech.com/",
+    "logo": "ssc",
+    "logoBackground": "white",
+    "role": "Software Engineer",
+    "date": "February 2020 - January 2021",
+    "duties": [
+      "Developed, tested and maintained new and existing RESTful APIs with .NET Core.",
+      "Contributed to the re-write and migration of legacy applications to more modern frameworks.",
+      "Proactively identified and improved problem areas of applications.",
+      "Designed, enhanced and implemented unit tests for newly written APIs using NUnit and Moq."
+    ]
+  }
+]

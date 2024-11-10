@@ -1,0 +1,12 @@
+C:\repos\portfolio-app-fullstack\portfolio-backend\Portfolio.Models\bin\Debug\net8.0\Portfolio.Models.deps.json
+C:\repos\portfolio-app-fullstack\portfolio-backend\Portfolio.Models\bin\Debug\net8.0\Portfolio.Models.dll
+C:\repos\portfolio-app-fullstack\portfolio-backend\Portfolio.Models\bin\Debug\net8.0\Portfolio.Models.pdb
+C:\repos\portfolio-app-fullstack\portfolio-backend\Portfolio.Models\obj\Debug\net8.0\Portfolio.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\portfolio-app-fullstack\portfolio-backend\Portfolio.Models\obj\Debug\net8.0\Portfolio.Models.AssemblyInfoInputs.cache
+C:\repos\portfolio-app-fullstack\portfolio-backend\Portfolio.Models\obj\Debug\net8.0\Portfolio.Models.AssemblyInfo.cs
+C:\repos\portfolio-app-fullstack\portfolio-backend\Portfolio.Models\obj\Debug\net8.0\Portfolio.Models.csproj.CoreCompileInputs.cache
+C:\repos\portfolio-app-fullstack\portfolio-backend\Portfolio.Models\obj\Debug\net8.0\Portfolio.Models.sourcelink.json
+C:\repos\portfolio-app-fullstack\portfolio-backend\Portfolio.Models\obj\Debug\net8.0\Portfolio.Models.dll
+C:\repos\portfolio-app-fullstack\portfolio-backend\Portfolio.Models\obj\Debug\net8.0\refint\Portfolio.Models.dll
+C:\repos\portfolio-app-fullstack\portfolio-backend\Portfolio.Models\obj\Debug\net8.0\Portfolio.Models.pdb
+C:\repos\portfolio-app-fullstack\portfolio-backend\Portfolio.Models\obj\Debug\net8.0\ref\Portfolio.Models.dll

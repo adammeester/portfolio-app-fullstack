@@ -1,5 +1,7 @@
 ﻿using Microsoft.Azure.Functions.Worker.Http;
+using Newtonsoft.Json;
 using System.Net;
+using System.Threading;
 
 namespace Portfolio.Functions.Extensions
 {
@@ -19,7 +21,18 @@ namespace Portfolio.Functions.Extensions
             }
             else
             {
-                await response.WriteAsJsonAsync(content);
+
+                var settings = new JsonSerializerSettings
+                {
+                    ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver(),
+                    NullValueHandling = NullValueHandling.Ignore // Optional: Ignore null values
+                };
+
+                // Create an ObjectSerializer using the Newtonsoft.Json serializer settings
+                var serializer = new NewtonsoftJsonObjectSerializer(settings);
+
+                // Use WriteAsJsonAsync to serialize with the custom serializer
+                await response.WriteAsJsonAsync(content, serializer);
             }
 
             return response;

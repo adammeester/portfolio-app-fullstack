@@ -27,7 +27,7 @@ export const PlanetCanvas = ({ planet }: PlanetCanvasProps) => {
         {/* z was 4*/}
         <PerspectiveCamera makeDefault position={[5, 2, 8]} />
 
-        <Suspense fallback={<Loader />}>
+        <Suspense fallback={<Loader is3D={true} />}>
           <hemisphereLight intensity={1} groundColor='black' />
           <spotLight
             position={[0, 0, 0]}

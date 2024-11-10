@@ -1,4 +1,3 @@
-import { projects } from '../../constants';
 import { Technologies } from '../../utils/types';
 import styles from './Projects.module.css';
 import { Card } from '../Card';
@@ -7,7 +6,8 @@ import { IoIosLink } from 'react-icons/io';
 import { Planet } from '../PlanetCanvas';
 import { Project } from '../Project/Project';
 import { ShootingStar } from '../ShootingStar';
-import { useProjectsContext } from '../../context';
+import { Loader } from '../Loader';
+import { useProjectsContext } from '../../context/ProjectsContextProvider';
 
 type TechMapping = {
   [key in Technologies]: string;
@@ -25,6 +25,10 @@ const techMapping: TechMapping = {
 
 export const Projects = () => {
   const { projects, isLoading } = useProjectsContext();
+  console.log({ projects });
+
+  if (isLoading) return <Loader />;
+  if (!projects?.length) return null;
   return (
     <section id='projects' className={styles.container}>
       <ShootingStar />

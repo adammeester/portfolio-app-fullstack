@@ -15,7 +15,7 @@ export const SpaceBoyCanvas = () => {
         camera={{ position: [20, 0, 0], fov: 25 }}
         gl={{ preserveDrawingBuffer: true }}
       >
-        <Suspense fallback={<Loader />}>
+        <Suspense fallback={<Loader is3D={true} />}>
           <SpaceBoy />
           <OrbitControls
             enableZoom={false}

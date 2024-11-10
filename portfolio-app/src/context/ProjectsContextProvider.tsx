@@ -2,6 +2,7 @@ import { ReactNode, createContext, useContext, useState } from 'react';
 import { Project } from '../utils/types';
 import { useQuery } from 'react-query';
 import { ContentApiClient } from '../api/ContentApiClient';
+import { ProjectTransformer } from '../transformers/ProjectTransformer';
 
 export interface ProjectsContextInterface {
   projects: Array<Project>;
@@ -28,7 +29,7 @@ export const ProjectsContextProvider = ({
   const handleFetchProjects = async () => {
     const projects = await contentApiClient.getAllProjects();
 
-    setProjects(projects.data || []);
+    setProjects(ProjectTransformer.toProjectsWithContent(projects.data || []));
   };
 
   const { isLoading, data } = useQuery({

@@ -127,6 +127,17 @@ export const planetsNavMapping = {
   blackBottom: 'contact',
 };
 
+export const projectImageMapping = new Map<string, string>([
+  ['localisation1', localisation1],
+  ['trackMyOrder3', trackMyOrder3],
+  ['war3bot', war3bot],
+  ['azure', azure],
+]);
+
+export const iconMapping = new Map<string, string>([
+  ['githubLogo', githubLogo],
+]);
+
 export const projects: Array<Project> = [
   {
     type: 'major',

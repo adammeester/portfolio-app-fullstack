@@ -126,8 +126,7 @@
               "RelativeToolTip": "Portfolio.Functions\\Extensions\\HttpRequestDataExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T02:00:50.205Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T02:00:50.205Z"
             },
             {
               "$type": "Document",
@@ -139,34 +138,31 @@
               "RelativeToolTip": "Portfolio.Functions\\host.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-10T01:49:47.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T01:49:47.678Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Portfolio.Tests",
+              "Title": "Portfolio.Tests.csproj",
               "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Tests\\Portfolio.Tests.csproj",
               "RelativeDocumentMoniker": "Portfolio.Tests\\Portfolio.Tests.csproj",
               "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Tests\\Portfolio.Tests.csproj",
               "RelativeToolTip": "Portfolio.Tests\\Portfolio.Tests.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-10T00:35:05.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:35:05.034Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "Portfolio.Service",
+              "Title": "Portfolio.Service.csproj",
               "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Service\\Portfolio.Service.csproj",
               "RelativeDocumentMoniker": "Portfolio.Service\\Portfolio.Service.csproj",
               "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Service\\Portfolio.Service.csproj",
               "RelativeToolTip": "Portfolio.Service\\Portfolio.Service.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-10T00:28:41.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:28:41.456Z"
             },
             {
               "$type": "Document",
@@ -177,8 +173,7 @@
               "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Service\\Portfolio.Service.csproj",
               "RelativeToolTip": "Portfolio.Service\\Portfolio.Service.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-10T00:28:39.849Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:28:39.849Z"
             },
             {
               "$type": "Document",
@@ -190,8 +185,7 @@
               "RelativeToolTip": "Portfolio.Tests\\Repository\\ProjectsRepositoryTests.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:24:55.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:24:55.707Z"
             },
             {
               "$type": "Document",
@@ -203,8 +197,7 @@
               "RelativeToolTip": "Portfolio.Tests\\Service\\ProjectsServiceTests.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:24:10.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:24:10.006Z"
             },
             {
               "$type": "Document",
@@ -216,8 +209,7 @@
               "RelativeToolTip": "Portfolio.Models\\Exception\\DataLoadingException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:07:40.008Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:07:40.008Z"
             },
             {
               "$type": "Document",
@@ -229,8 +221,7 @@
               "RelativeToolTip": "Portfolio.Data\\DataLoader.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:04:00.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:04:00.375Z"
             },
             {
               "$type": "Document",
@@ -242,8 +233,7 @@
               "RelativeToolTip": "Portfolio.Models\\PortfolioData.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T00:03:21.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T00:03:21.062Z"
             },
             {
               "$type": "Document",
@@ -255,8 +245,7 @@
               "RelativeToolTip": "Portfolio.Functions\\Projects\\GetProjects.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAACIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:50:34.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:50:34.399Z"
             },
             {
               "$type": "Document",
@@ -268,8 +257,7 @@
               "RelativeToolTip": "Portfolio.Models\\Request\\AddProjectRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:50:26.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:50:26.41Z"
             },
             {
               "$type": "Document",
@@ -294,8 +282,7 @@
               "RelativeToolTip": "Portfolio.Models\\Configuration\\PortfolioAppSettings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:47:33.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:47:33.555Z"
             },
             {
               "$type": "Document",
@@ -307,8 +294,7 @@
               "RelativeToolTip": "Portfolio.Functions\\local.settings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-09T22:44:17.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:44:17.791Z"
             },
             {
               "$type": "Document",
@@ -320,8 +306,7 @@
               "RelativeToolTip": "Portfolio.Functions\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:43:59.842Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:43:59.842Z"
             },
             {
               "$type": "Document",
@@ -333,8 +318,7 @@
               "RelativeToolTip": "Portfolio.Service\\Interface\\IProjectsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:43:34.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:43:34.441Z"
             },
             {
               "$type": "Document",
@@ -346,8 +330,7 @@
               "RelativeToolTip": "Portfolio.Service\\ProjectsService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:43:21.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:43:21.482Z"
             },
             {
               "$type": "Document",
@@ -359,8 +342,7 @@
               "RelativeToolTip": "Portfolio.Repository\\Interface\\IProjectsRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:41:34.578Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:41:34.578Z"
             },
             {
               "$type": "Document",
@@ -372,8 +354,7 @@
               "RelativeToolTip": "Portfolio.Repository\\ProjectsRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:41:19.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:41:19.384Z"
             },
             {
               "$type": "Document",
@@ -385,8 +366,7 @@
               "RelativeToolTip": "Portfolio.Models\\Link.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:38:52.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:38:52.048Z"
             },
             {
               "$type": "Document",
@@ -398,8 +378,7 @@
               "RelativeToolTip": "Portfolio.Models\\Icon.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:38:35.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:38:35.639Z"
             },
             {
               "$type": "Document",
@@ -411,8 +390,7 @@
               "RelativeToolTip": "Portfolio.Data\\Projects\\projects.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-09T22:37:01.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:37:01.704Z"
             },
             {
               "$type": "Document",
@@ -424,8 +402,7 @@
               "RelativeToolTip": "Portfolio.Models\\Project.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:34:41.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:34:41.027Z"
             },
             {
               "$type": "Document",
@@ -437,8 +414,7 @@
               "RelativeToolTip": "Portfolio.Models\\Experience.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T22:34:34.858Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:34:34.858Z"
             },
             {
               "$type": "Document",
@@ -450,8 +426,7 @@
               "RelativeToolTip": "Portfolio.Data\\Experience\\experience.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-09T22:33:50.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-09T22:33:50.828Z"
             }
           ]
         }

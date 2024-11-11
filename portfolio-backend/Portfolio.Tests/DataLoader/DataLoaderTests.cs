@@ -9,7 +9,7 @@ namespace Portfolio.Data.Tests
         private readonly string _solutionDir;
         private readonly string _projectsFilePath;
         private string _originalContent = string.Empty;
-        private bool _originalFileExisted = false;
+        private bool _originalFileExisted;
 
         public DataLoaderTests()
         {

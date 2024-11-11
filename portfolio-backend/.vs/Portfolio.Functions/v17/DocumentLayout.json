@@ -3,16 +3,51 @@
   "WorkspaceRootPath": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B0D46B6-24DC-4500-83B3-13BAAF67C50F}|Portfolio.Functions\\Portfolio.Functions.csproj|c:\\repos\\portfolio-app-fullstack\\portfolio-backend\\portfolio.functions\\extensions\\newtonsoftjsonobjectserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B0D46B6-24DC-4500-83B3-13BAAF67C50F}|Portfolio.Functions\\Portfolio.Functions.csproj|solutionrelative:portfolio.functions\\extensions\\newtonsoftjsonobjectserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D64F99D1-5F58-44D4-824D-02212187E367}|Portfolio.Tests\\Portfolio.Tests.csproj|c:\\repos\\portfolio-app-fullstack\\portfolio-backend\\portfolio.tests\\dataloader\\dataloadertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64F99D1-5F58-44D4-824D-02212187E367}|Portfolio.Tests\\Portfolio.Tests.csproj|solutionrelative:portfolio.tests\\dataloader\\dataloadertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B0D46B6-24DC-4500-83B3-13BAAF67C50F}|Portfolio.Functions\\Portfolio.Functions.csproj|c:\\repos\\portfolio-app-fullstack\\portfolio-backend\\portfolio.functions\\extensions\\httprequestdataextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B0D46B6-24DC-4500-83B3-13BAAF67C50F}|Portfolio.Functions\\Portfolio.Functions.csproj|solutionrelative:portfolio.functions\\extensions\\httprequestdataextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{305E2953-5960-4E0D-88EC-7D16DB14AF8E}|Portfolio.Data\\Portfolio.Data.csproj|c:\\repos\\portfolio-app-fullstack\\portfolio-backend\\portfolio.data\\projects\\projects.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{305E2953-5960-4E0D-88EC-7D16DB14AF8E}|Portfolio.Data\\Portfolio.Data.csproj|solutionrelative:portfolio.data\\projects\\projects.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{305E2953-5960-4E0D-88EC-7D16DB14AF8E}|Portfolio.Data\\Portfolio.Data.csproj|c:\\repos\\portfolio-app-fullstack\\portfolio-backend\\portfolio.data\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{305E2953-5960-4E0D-88EC-7D16DB14AF8E}|Portfolio.Data\\Portfolio.Data.csproj|solutionrelative:portfolio.data\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2B0D46B6-24DC-4500-83B3-13BAAF67C50F}|Portfolio.Functions\\Portfolio.Functions.csproj|c:\\repos\\portfolio-app-fullstack\\portfolio-backend\\portfolio.functions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B0D46B6-24DC-4500-83B3-13BAAF67C50F}|Portfolio.Functions\\Portfolio.Functions.csproj|solutionrelative:portfolio.functions\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D64F99D1-5F58-44D4-824D-02212187E367}|Portfolio.Tests\\Portfolio.Tests.csproj|c:\\repos\\portfolio-app-fullstack\\portfolio-backend\\portfolio.tests\\service\\projectsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64F99D1-5F58-44D4-824D-02212187E367}|Portfolio.Tests\\Portfolio.Tests.csproj|solutionrelative:portfolio.tests\\service\\projectsservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D64F99D1-5F58-44D4-824D-02212187E367}|Portfolio.Tests\\Portfolio.Tests.csproj|c:\\repos\\portfolio-app-fullstack\\portfolio-backend\\portfolio.tests\\repository\\projectsrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64F99D1-5F58-44D4-824D-02212187E367}|Portfolio.Tests\\Portfolio.Tests.csproj|solutionrelative:portfolio.tests\\repository\\projectsrepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0D46B6-24DC-4500-83B3-13BAAF67C50F}|Portfolio.Functions\\Portfolio.Functions.csproj|c:\\repos\\portfolio-app-fullstack\\portfolio-backend\\portfolio.functions\\portfolio.functions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2B0D46B6-24DC-4500-83B3-13BAAF67C50F}|Portfolio.Functions\\Portfolio.Functions.csproj|solutionrelative:portfolio.functions\\portfolio.functions.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{305E2953-5960-4E0D-88EC-7D16DB14AF8E}|Portfolio.Data\\Portfolio.Data.csproj|c:\\repos\\portfolio-app-fullstack\\portfolio-backend\\portfolio.data\\interface\\idataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{305E2953-5960-4E0D-88EC-7D16DB14AF8E}|Portfolio.Data\\Portfolio.Data.csproj|solutionrelative:portfolio.data\\interface\\idataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0D46B6-24DC-4500-83B3-13BAAF67C50F}|Portfolio.Functions\\Portfolio.Functions.csproj|c:\\repos\\portfolio-app-fullstack\\portfolio-backend\\portfolio.functions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2B0D46B6-24DC-4500-83B3-13BAAF67C50F}|Portfolio.Functions\\Portfolio.Functions.csproj|solutionrelative:portfolio.functions\\local.settings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E340B8-B0AA-4AA8-A337-50E711C368FB}|Portfolio.Repository\\Portfolio.Repository.csproj|c:\\repos\\portfolio-app-fullstack\\portfolio-backend\\portfolio.repository\\projectsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E340B8-B0AA-4AA8-A337-50E711C368FB}|Portfolio.Repository\\Portfolio.Repository.csproj|solutionrelative:portfolio.repository\\projectsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B0D46B6-24DC-4500-83B3-13BAAF67C50F}|Portfolio.Functions\\Portfolio.Functions.csproj|c:\\repos\\portfolio-app-fullstack\\portfolio-backend\\portfolio.functions\\projects\\addproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B0D46B6-24DC-4500-83B3-13BAAF67C50F}|Portfolio.Functions\\Portfolio.Functions.csproj|solutionrelative:portfolio.functions\\projects\\addproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +57,162 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewtonsoftJsonObjectSerializer.cs",
-              "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Functions\\Extensions\\NewtonsoftJsonObjectSerializer.cs",
-              "RelativeDocumentMoniker": "Portfolio.Functions\\Extensions\\NewtonsoftJsonObjectSerializer.cs",
-              "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Functions\\Extensions\\NewtonsoftJsonObjectSerializer.cs",
-              "RelativeToolTip": "Portfolio.Functions\\Extensions\\NewtonsoftJsonObjectSerializer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T02:55:33.309Z",
+              "DocumentIndex": 1,
+              "Title": "projects.json",
+              "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Data\\Projects\\projects.json",
+              "RelativeDocumentMoniker": "Portfolio.Data\\Projects\\projects.json",
+              "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Data\\Projects\\projects.json",
+              "RelativeToolTip": "Portfolio.Data\\Projects\\projects.json",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAkwDkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T01:48:59.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAHkUAAAAAAAAAAAkwJUUAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-11T01:41:41.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Portfolio.Functions",
+              "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Functions\\Portfolio.Functions.csproj",
+              "RelativeDocumentMoniker": "Portfolio.Functions\\Portfolio.Functions.csproj",
+              "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Functions\\Portfolio.Functions.csproj",
+              "RelativeToolTip": "Portfolio.Functions\\Portfolio.Functions.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-11T01:40:23.58Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "local.settings.json",
+              "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Functions\\local.settings.json",
+              "RelativeDocumentMoniker": "Portfolio.Functions\\local.settings.json",
+              "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Functions\\local.settings.json",
+              "RelativeToolTip": "Portfolio.Functions\\local.settings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T01:29:03.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataLoaderTests.cs",
+              "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Tests\\DataLoader\\DataLoaderTests.cs",
+              "RelativeDocumentMoniker": "Portfolio.Tests\\DataLoader\\DataLoaderTests.cs",
+              "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Tests\\DataLoader\\DataLoaderTests.cs",
+              "RelativeToolTip": "Portfolio.Tests\\DataLoader\\DataLoaderTests.cs",
+              "ViewState": "AQIAAF4AAAAAAAAAAAAcwHEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:28:40.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Functions\\Program.cs",
               "RelativeDocumentMoniker": "Portfolio.Functions\\Program.cs",
               "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Functions\\Program.cs",
               "RelativeToolTip": "Portfolio.Functions\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T02:52:46.577Z",
+              "WhenOpened": "2024-11-11T01:12:25.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HttpRequestDataExtensions.cs",
-              "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Functions\\Extensions\\HttpRequestDataExtensions.cs",
-              "RelativeDocumentMoniker": "Portfolio.Functions\\Extensions\\HttpRequestDataExtensions.cs",
-              "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Functions\\Extensions\\HttpRequestDataExtensions.cs",
-              "RelativeToolTip": "Portfolio.Functions\\Extensions\\HttpRequestDataExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAqAAAA",
+              "DocumentIndex": 8,
+              "Title": "IDataLoader.cs",
+              "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Data\\Interface\\IDataLoader.cs",
+              "RelativeDocumentMoniker": "Portfolio.Data\\Interface\\IDataLoader.cs",
+              "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Data\\Interface\\IDataLoader.cs",
+              "RelativeToolTip": "Portfolio.Data\\Interface\\IDataLoader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T02:52:24.862Z",
+              "WhenOpened": "2024-11-11T01:11:37.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProjectsRepository.cs",
+              "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Repository\\ProjectsRepository.cs",
+              "RelativeDocumentMoniker": "Portfolio.Repository\\ProjectsRepository.cs",
+              "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Repository\\ProjectsRepository.cs",
+              "RelativeToolTip": "Portfolio.Repository\\ProjectsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:07:32.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataLoader.cs",
+              "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Data\\DataLoader.cs",
+              "RelativeDocumentMoniker": "Portfolio.Data\\DataLoader.cs",
+              "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Data\\DataLoader.cs",
+              "RelativeToolTip": "Portfolio.Data\\DataLoader.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvxsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:00:52.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectsServiceTests.cs",
+              "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Tests\\Service\\ProjectsServiceTests.cs",
+              "RelativeDocumentMoniker": "Portfolio.Tests\\Service\\ProjectsServiceTests.cs",
+              "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Tests\\Service\\ProjectsServiceTests.cs",
+              "RelativeToolTip": "Portfolio.Tests\\Service\\ProjectsServiceTests.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:00:46.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectsRepositoryTests.cs",
+              "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Tests\\Repository\\ProjectsRepositoryTests.cs",
+              "RelativeDocumentMoniker": "Portfolio.Tests\\Repository\\ProjectsRepositoryTests.cs",
+              "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Tests\\Repository\\ProjectsRepositoryTests.cs",
+              "RelativeToolTip": "Portfolio.Tests\\Repository\\ProjectsRepositoryTests.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:00:45.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddProject.cs",
+              "DocumentMoniker": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Functions\\Projects\\AddProject.cs",
+              "RelativeDocumentMoniker": "Portfolio.Functions\\Projects\\AddProject.cs",
+              "ToolTip": "C:\\repos\\portfolio-app-fullstack\\portfolio-backend\\Portfolio.Functions\\Projects\\AddProject.cs",
+              "RelativeToolTip": "Portfolio.Functions\\Projects\\AddProject.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:00:22.854Z",
               "EditorCaption": ""
             }
           ]

@@ -1,35 +1,51 @@
 ﻿using Newtonsoft.Json;
+using Portfolio.Data.Interface;
 using Portfolio.Models;
-using System.Reflection;
 
 namespace Portfolio.Data
 {
-    public static class DataLoader
+    public class DataLoader: IDataLoader
     {
-        public static async Task<PortfolioData<Project>> SaveProjectsAsync(List<Project> projects)
+        public async Task<PortfolioData<Project>> SaveProjectAsync(Project project)
         {
             try
             {
-                var dataAssemblyPath = typeof(DataLoader).Assembly.Location;
-                var baseDirectory = Path.GetDirectoryName(dataAssemblyPath);
+                var currentDirectory = Directory.GetCurrentDirectory();
+                var solutionDirectory = GetSolutionDirectoryInfo(currentDirectory)?.FullName
+                    ?? throw new DirectoryNotFoundException("Could not find solution directory");
 
-                var jsonFilePath = Path.Combine(baseDirectory!, "Projects", "projects.json");
-                if (!Directory.Exists(jsonFilePath))
+                var projectsDirectory = Path.Combine(solutionDirectory, "Portfolio.Data", "Projects");
+                if (!Directory.Exists(projectsDirectory))
                 {
-                    Directory.CreateDirectory(jsonFilePath!);
+                    Directory.CreateDirectory(projectsDirectory);
                 }
 
-                var jsonData = JsonConvert.SerializeObject(projects, Formatting.Indented);
+                var jsonFilePath = Path.Combine(projectsDirectory, "projects.json");
+
+                List<Project> existingProjects = [];
+                if (File.Exists(jsonFilePath))
+                {
+                    var existingJson = await File.ReadAllTextAsync(jsonFilePath);
+                    existingProjects = JsonConvert.DeserializeObject<List<Project>>(existingJson) ?? new List<Project>();
+                }
+
+                existingProjects.Add(project);
+
+                var jsonData = JsonConvert.SerializeObject(existingProjects, new JsonSerializerSettings
+                {
+                    Formatting = Formatting.Indented,
+                    ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+                    ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver()
+                });
 
                 await File.WriteAllTextAsync(jsonFilePath, jsonData);
 
-                var projectsData = new PortfolioData<Project>() { Data = projects };
-
+                var projectsData = new PortfolioData<Project>() { Data = existingProjects.ToList() };
                 return projectsData;
             }
             catch (IOException ex)
             {
-                throw new Exception("Error accessing the projects file", ex);
+                throw new Exception($"Error accessing the projects file", ex);
             }
             catch (JsonException ex)
             {
@@ -40,7 +56,8 @@ namespace Portfolio.Data
                 throw new Exception($"Error saving projects data: {ex.Message}", ex);
             }
         }
-        public static async Task<PortfolioData<Project>> LoadProjectsData()
+
+        public async Task<PortfolioData<Project>> LoadProjectsData()
         {
             try
             {
@@ -67,6 +84,15 @@ namespace Portfolio.Data
             {
                 throw new Exception($"Error reading projects data: {ex.Message}", ex);
             }
+        }
+        private static DirectoryInfo? GetSolutionDirectoryInfo(string currentPath)
+        {
+            var directory = new DirectoryInfo(currentPath);
+            while (directory != null && directory.GetFiles("*.sln").Length == 0)
+            {
+                directory = directory.Parent;
+            }
+            return directory;
         }
     }
 }

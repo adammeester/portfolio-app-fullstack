@@ -8,9 +8,13 @@
       "Utilised React.js and employed the React Context API and React Hooks to efficiently manage shared state of saved user location data.",
       "Implemented a user-friendly interface based on Figma designs accessible from any product page through the 'Set my location' button."
     ],
-    "technologies": [ "React", "TypeScript" ],
+    "technologies": [
+      "React",
+      "TypeScript"
+    ],
     "link": {
-      "target": "https://www.jbhifi.com.au/products/samsung-galaxy-tab-s8-ultra-14-6-wi-fi-128gb-dark-grey"
+      "target": "https://www.jbhifi.com.au/products/samsung-galaxy-tab-s8-ultra-14-6-wi-fi-128gb-dark-grey",
+      "icon": null
     }
   },
   {
@@ -24,29 +28,45 @@
       "Developed an Azure functions app to retrieve order tracking data and dynamically serve page content to front-end application, ensuring a responsive and streamlined user and developer experience.",
       "Streamlined CI/CD workflows with implementation of GitHub Actions pipelines."
     ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "C#",
+      ".NET Core",
+      "Azure"
+    ],
     "link": {
-      "target": "https://www.jbhifi.com.au/pages/track-my-order"
-    },
-    "technologies": [ "React", "TypeScript", "C#", ".NET Core", "Azure" ]
+      "target": "https://www.jbhifi.com.au/pages/track-my-order",
+      "icon": null
+    }
   },
   {
     "type": "minor",
     "title": "Event-Driven Automated Warehousing (.NET Core)",
+    "imageUrl": "azure",
     "description": "An event-driven automated warehousing solution for a large supermarket chain leveraging Azure Event Hub",
     "features": [
       "Developed Next.js to interface with integration platform.",
       "Architected and designed a suite of integration tests for seamless and comprehensive regression testing.",
       "Worked as part of an agile team."
     ],
-    "technologies": [ ".NET Core", "C#", "Azure" ],
-    "imageUrl": "azure"
+    "technologies": [
+      ".NET Core",
+      "C#",
+      "Azure"
+    ],
+    "link": null
   },
   {
     "type": "minor",
     "title": "Warcraft 3 Discord bot",
-    "description": "A basic Discord bot which scrapes Liquidpedia for upcoming Warcraft 3 professional matches",
-    "technologies": [ ".NET Core", "C#" ],
     "imageUrl": "war3bot",
+    "description": "A basic Discord bot which scrapes Liquidpedia for upcoming Warcraft 3 professional matches",
+    "features": [],
+    "technologies": [
+      ".NET Core",
+      "C#"
+    ],
     "link": {
       "target": "https://github.com/adammeester/warcraft3-discord-bot",
       "icon": {

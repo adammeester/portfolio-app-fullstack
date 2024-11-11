@@ -22,7 +22,7 @@ namespace Portfolio.Tests.Service
         }
 
         [Fact]
-        public async Task GetAllProjects__SuccessTest()
+        public async Task GetAllProjects_ShouldReturnProjects()
         {
             _projectsRepoMock.Setup(repo => repo.GetAllProjectsAsync())
                 .ReturnsAsync(_fixture.CreateMany<Project>(2).ToList());
@@ -35,7 +35,7 @@ namespace Portfolio.Tests.Service
         }
 
         [Fact]
-        public async Task AddProject__SuccessTest()
+        public async Task AddProject_ShouldAddNewProject()
         {
 
             var request = new AddProjectRequest()

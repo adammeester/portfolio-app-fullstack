@@ -1897,6 +1897,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.2",
           "Portfolio.Data": "1.0.0",
           "Portfolio.Models": "1.0.0"
         },

@@ -8,6 +8,10 @@ using Portfolio.Service;
 using Portfolio.Service.Interface;
 using System.Text.Json.Serialization;
 using System.Text.Json;
+using Portfolio.Data.Interface;
+using Portfolio.Data;
+using Newtonsoft.Json.Serialization;
+using Newtonsoft.Json;
 
 var host = new HostBuilder()
     .ConfigureFunctionsWebApplication()
@@ -15,6 +19,14 @@ var host = new HostBuilder()
     {
         services.AddApplicationInsightsTelemetryWorkerService();
         services.ConfigureFunctionsApplicationInsights();
+
+        services.AddSingleton(new JsonSerializerSettings
+        {
+            ContractResolver = new CamelCasePropertyNamesContractResolver(),
+            NullValueHandling = NullValueHandling.Ignore,
+            Formatting = Formatting.Indented,
+            ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+        });
 
         services.AddSingleton(sp =>
         {
@@ -28,6 +40,8 @@ var host = new HostBuilder()
         var config = context.Configuration;
 
         services.Configure<PortfolioAppSettings>(config.GetSection(nameof(PortfolioAppSettings)));
+
+        services.AddTransient<IDataLoader, DataLoader>();
 
         // Repositories
         services.AddTransient<IProjectsRepository, ProjectsRepository>();
